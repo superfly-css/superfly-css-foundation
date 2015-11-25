@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Extensions / additions to normalize.css html element resets.",
   "main": "src/main/css/index.css",
+  "style": "src/main/css/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
