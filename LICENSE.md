@@ -1,8 +1,11 @@
 The MIT License (MIT)
 
 Copyright (c) 2015-2016 Firefly Semantics Corporation
+
 Copyright (c) 2015-2016 Ole Ersoy
+
 Copyright (c) 2015-2016 superfly-css
+
 Copyright (c) 2011-2015 Twitter, Inc.
 
 
