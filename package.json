@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-foundation",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extensions / additions to normalize.css html element resets.",
   "main": "src/main/css/index.css",
   "style": "src/main/css/index.css",

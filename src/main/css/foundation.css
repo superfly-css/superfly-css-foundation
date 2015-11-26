@@ -133,6 +133,7 @@ html {
   --base-font-family:      var(--font-family-sans-serif);
   --base-font-size:        1rem;
   --base-line-height:      1.428571429;  /* 20/14 */
+  --base-link-hover-decoration: underline;
 }
 
 body {
@@ -222,7 +223,7 @@ a {
 
 a:hover, a:focus {
     color: var(--color-link-hover);
-    text-decoration: underline;
+    text-decoration: var(--base-link-hover-decoration);
 }
 
 a:focus {
