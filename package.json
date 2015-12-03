@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-foundation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extensions / additions to normalize.css html element resets.",
   "main": "src/main/css/index.css",
   "style": "src/main/css/index.css",
@@ -31,6 +31,6 @@
   "dependencies": {
     "normalize.css": "^3.0.3",
     "superfly-css-variables-colors": "0.0.9",
-    "superfly-css-variables-fonts": "0.0.1"
+    "superfly-css-variables-fonts": "0.0.2"
   }
 }
