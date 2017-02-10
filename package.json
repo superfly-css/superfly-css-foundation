@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-foundation",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Extensions / additions to normalize.css html element resets.",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/superfly-css/superfly-css-foundation#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "superfly-css-task-build": "0.0.3"
+    "superfly-css-task-build": "^0.1.0"
   },
   "dependencies": {
     "normalize.css": "^3.0.3",
