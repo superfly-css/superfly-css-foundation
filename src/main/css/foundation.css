@@ -19,6 +19,19 @@
    [BR - Bootstrap Reboot](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_reboot.scss)
    [SB - SuitCSS Base](https://github.com/suitcss/base/blob/master/lib/base.css)
    -------------------------------------- */
+
+/* --------------------------------------
+1a:
+  Import `superfly-css-variables-fonts` in order to set
+  the base font family.
+1b:
+  Import `superfly-css-variables-colors` in order to
+  access color variables.
+-------------------------------------- */
+
+@import "superfly-css-variables-colors";
+@import "superfly-css-variables-fonts";
+
 /**
  * Element margin resets.
  */
@@ -81,18 +94,6 @@ button:focus {
 @viewport { width: device-width; }
 
 /* --------------------------------------
-1a:
-  Import `superfly-css-variables-fonts` in order to set
-  the base font family.
-1b:
-  Import `superfly-css-variables-colors` in order to
-  access color variables.
--------------------------------------- */
-
-@import superfly-css-variables-colors;
-@import superfly-css-variables-fonts;
-
-/* --------------------------------------
 2a:
   [BR] Initialize the font-size of the html element
   using the `font-size-root` variable in order to
@@ -140,7 +141,7 @@ html {
 :root {
   --base-background-color: var(--color-white);
   --base-text-color:       var(--color-text);
-  --base-font-family:      var(--font-family-sans-serif);
+  --base-font-family:      var(--font-family-sans-helvetica-neue);
   --base-font-size:        1rem;
   --base-line-height:      1.428571429;  /* 20/14 */
   --base-link-hover-decoration: underline;
